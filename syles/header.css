@@ -1,0 +1,92 @@
+body header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1px) and (max-width: 499px){
+    header{
+    background-color: rgb(8, 83, 194);
+    width: 100vw;
+    height: 120px;
+    display: grid;
+    justify-content: space-around;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+}
+    .image{
+        width: 20%;
+        height: 10%;
+    }
+    div input{
+            padding: 15px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            margin-top: 5px;
+            border-radius: 4px;
+            transition: all linear 160ms;
+            outline: none;   
+    }
+    div input:hover{
+            border: 2px solid #000000;
+    }
+}
+@media (min-width: 500px) and (max-width: 800px){
+    header{
+        background-color: rgb(245, 0, 151);
+        width: 100%;
+        height: 165px;
+        display: grid;
+        justify-content: space-around;
+        box-shadow: 0 7px 10px 0 #a1a1a1;
+        transition: all 0.5s ease-in-out 1s;
+    }
+    img{
+        width: 20%;
+        height: 10%;
+    }
+    div input{
+            padding: 15px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            margin-top: 5px;
+            border-radius: 4px;
+            transition: all linear 160ms;
+            outline: none;   
+    }
+    div input:hover{
+            border: 2px solid #000000;
+    }
+}
+@media (min-width: 801px) {
+    header{
+        background-color: rgb(255, 238, 4);
+        width: 100%;
+        height: 165px;
+        display: grid;
+        justify-content: space-around;
+        box-shadow: 0 7px 10px 0 #a1a1a1;
+        transition: all 0.5s ease-in-out 1s;
+    }
+    img{
+        width: 20%;
+        height: 10%;
+    }
+    div input{
+            padding: 15px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            margin-top: 5px;
+            border-radius: 4px;
+            transition: all linear 160ms;
+            outline: none;   
+    }
+    div input:hover{
+            border: 2px solid #000000;
+    }
+}
+
+
