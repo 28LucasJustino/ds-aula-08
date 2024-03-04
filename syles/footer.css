@@ -1,12 +1,11 @@
 @media (min-width: 1px) and (max-width: 499px){
 footer{
     background-color: rgb(8, 83, 194);
-    width: 120%;
+    width: 100vw;
     height: 100%;
 }
 
-footer div button {
-    text-decoration: none;
+footer div button {      
     background-color: rgb(8, 83, 194);
     color: rgb(0, 0, 0);
     font-size: 100%;
@@ -23,12 +22,11 @@ footer div button{
 @media (min-width: 500px) and (max-width: 800px){
     footer{
         background-color: rgb(245, 0, 151);
-        width: 120%;
+        width: 100vw;
         height: 100%;
     }
     
     footer div button {
-        text-decoration: none;
         background-color: rgb(245, 0, 151);
         color: rgb(0, 0, 0);
         font-size: 100%;
@@ -45,12 +43,11 @@ footer div button{
     @media (min-width: 801px){
         footer{
             background-color: rgb(255, 238, 4);
-            width: 120%;
+            width: 100vw;
             height: 100%;
         }
         
         footer div button {
-            text-decoration: none;
             background-color: rgb(255, 238, 4);
             color: rgb(0, 0, 0);
             font-size: 100%;
