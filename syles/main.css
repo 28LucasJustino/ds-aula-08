@@ -1,5 +1,5 @@
 main body{
-        width: 100vw;
+        width: 100%;
         margin: 0;
         padding: 0; 
 }
@@ -162,9 +162,8 @@ main body{
    }
 
    @media (min-width: 1px) and (max-width: 499px){
-    img{
-    width: 10px;
-    height: 10px;
+    #img1{
+    width: 100vw;
     }
     div h1 {
     text-align: center;
@@ -183,9 +182,8 @@ main body{
  } 
 }
 @media (min-width: 500px) and (max-width: 800px){
-    main div #img{
-    width: 10px;
-    height: 10px;
+    #img1{
+     width: 100vw;
     }
     div h1 {
     text-align: center;
@@ -204,8 +202,8 @@ main body{
  } 
 }
 @media (min-width: 801px) {
-    img{
-    width: 100%;
+    #img1{
+     width: 100vw;
     }
     div h1 {
     text-align: center;
