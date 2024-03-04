@@ -1,9 +1,3 @@
-main body{
-        width: 100%;
-        margin: 0;
-        padding: 0; 
-}
-
 @media (min-width: 1px) and (max-width: 599px){
     main .login{
         display: flex;
@@ -12,7 +6,7 @@ main body{
         align-content: center;
         justify-content: center;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-color: rgb(255, 3, 3);
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }   
@@ -30,13 +24,13 @@ main body{
     .login input:hover{
     border: 2px solid #000000;
     }
-    .login p{
-    display: inline-block;
+    .login .hy{
+
     font-size: 14px;
     color: #000000;
     margin-bottom: 25px;
     }
-    .login h1{
+    .login .hz{
     padding: 0;
     margin: 0;
     font-weight: 500;
@@ -64,7 +58,7 @@ main body{
         align-content: center;
         justify-content: center;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-color: rgb(246, 250, 4);
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }   
@@ -82,13 +76,13 @@ main body{
     .login input:hover{
     border: 2px solid #000000;
     }
-    .login p{
+    .login .hy{
     display: inline-block;
     font-size: 14px;
     color: #000000;
     margin-bottom: 25px;
     }
-    .login h1{
+    .login .hz{
     padding: 0;
     margin: 0;
     font-weight: 500;
@@ -221,4 +215,16 @@ main body{
     height: 100vh;
     
  } 
- }  
+ } 
+ .text{
+    text-align: center;
+    }
+div #container{
+    width: 200px;
+    background-color: red;
+    box-sizing: border-box;
+    border-radius: 18px;
+    box-shadow: 5px 5px 3px black;
+    margin: 10% auto 10px;
+    padding: 5px;
+    } 
