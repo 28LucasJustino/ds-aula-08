@@ -1,0 +1,317 @@
+header{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 300px) and (max-width: 320px){
+    header{
+    background-color: rgb(255, 2, 2);
+    width: 100vw;
+    height: 20%;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+}
+    .image1{
+        width: 10%;
+        position: relative;
+        top: 10px;
+        left: 1%;
+    }
+    .image2{
+        width: 10%;
+        position: relative;
+        top: -47px;
+        left: 58%;
+    }
+ 
+    div input{
+            padding: 6px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            transition: all linear 160ms;
+            outline: none; 
+            position: relative;
+            top: 5px;
+            left: 4%;  
+    }
+    div input:hover{
+            border: 2px solid #000000;
+    }
+    .btnBusca{
+        font-size: 15px;
+        font-weight: 600;
+        padding: 7px;
+        border: none ;
+        transition: all linear 160ms;
+        cursor: pointer;
+        position: relative;
+        top: -20px;
+        left: 35%;
+        }
+        .btnBusca:hover {
+        transform: scale(1.05);
+        background-color: #15ff00;
+        }
+}
+@media (min-width: 321px) and (max-width: 375px){
+    header{
+    background-color: rgb(255, 2, 2);
+    width: 100vw;
+    height: 20%;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+}
+    .image1{
+        width: 10%;
+        position: relative;
+        top: 10px;
+        left: 5px;
+    }
+    .image2{
+        width: 10%;
+        position: relative;
+        top: -56px;
+        left: 60%;
+    }
+ 
+    div input{
+            padding: 6px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            transition: all linear 160ms;
+            outline: none; 
+            position: relative;
+            top: 0px;
+            left: 6%;  
+    }
+    div input:hover{
+            border: 2px solid #000000;
+    }
+    .btnBusca{
+        font-size: 17px;
+        font-weight: 600;
+        padding: 8px;
+        border: none ;
+        transition: all linear 160ms;
+        cursor: pointer;
+        position: relative;
+        top: -25px;
+        left: 38%;
+        }
+        .btnBusca:hover {
+        transform: scale(1.05);
+        background-color: #15ff00;
+        }
+}
+@media (min-width: 376px) and (max-width: 425px){
+    header{
+    background-color: rgb(255, 2, 2);
+    width: 100vw;
+    height: 20%;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+}
+    .image1{
+        width: 7%;
+        position: relative;
+        top: 10px;
+        left: 1%;
+    }
+    .image2{
+        width: 7%;
+        position: relative;
+        top: 11px;
+        left: 5%;
+    }
+ 
+    div input{
+            padding: 5px;
+            font-size: 15px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            transition: all linear 160ms;
+            outline: none; 
+            position: relative;
+            top: 5px;
+            left: 4%;  
+    }
+    div input:hover{
+            border: 2px solid #000000;
+    }
+    .btnBusca{
+        font-size: 15px;
+        font-weight: 600;
+        padding: 8px;
+        border: none ;
+        transition: all linear 160ms;
+        cursor: pointer;
+        position: relative;
+        top: 5px;
+        left: 5%;
+        }
+        .btnBusca:hover {
+        transform: scale(1.05);
+        background-color: #15ff00;
+        }
+}
+@media (min-width: 426px) and (max-width: 767px){
+    header{
+    background-color: rgb(4, 0, 255);
+    width: 100%;
+    height: 10%;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+    }
+    .image1{
+    width: 8%;
+    position: relative;
+    top: 7px;
+    left: 2%;
+    }
+    .image2{
+    width: 8%;
+    position: relative;
+    top: 7px;
+    left: 6%;
+    }
+    div input{
+    padding: 9px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;  
+    position: relative;
+    top: -11px; 
+    left: 3%;
+    }
+    div input:hover{
+        border: 2px solid #000000;
+    }
+    .btnBusca{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 9px;
+    border: none ;
+    transition: all linear 160ms;
+    cursor: pointer;
+    position: relative;
+    top: -11px;
+    left: 5%;
+    }
+    .btnBusca:hover {
+    transform: scale(1.05);
+    background-color: #15ff00;
+    }   
+}
+@media (min-width: 768px) and (max-width: 800px){
+    header{
+    background-color: rgb(4, 0, 255);
+    width: 100%;
+    height: 10%;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+    }
+    .image1{
+    width: 8%;
+    position: relative;
+    top: 7px;
+    left: 2%;
+    }
+    .image2{
+    width: 8%;
+    position: relative;
+    top: 7px;
+    left: 6%;
+    }
+    div input{
+    padding: 9px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;  
+    position: relative;
+    top: -11px; 
+    left: 3%;
+    }
+    div input:hover{
+        border: 2px solid #000000;
+    }
+    .btnBusca{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 9px;
+    border: none ;
+    transition: all linear 160ms;
+    cursor: pointer;
+    position: relative;
+    top: -11px;
+    left: 5%;
+    }
+    .btnBusca:hover {
+    transform: scale(1.05);
+    background-color: #15ff00;
+    }   
+}
+@media (min-width: 801px) and (max-width:20000000000px) {
+    header{
+    background-color: rgb(206, 95, 5);
+    width: 100vw;
+    height: 15%;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+}
+.image1{
+    width: 10%;
+    position: relative;
+    top: 2vw;
+    left: 1vh;
+}
+.image2{
+    width: 10%;
+    position: relative;
+    top: 2vw;
+    left: 25vh;
+}
+    div input{
+        padding: 17px;
+        font-size: 30px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        border-radius: 4px;
+        transition: all linear 160ms;
+        outline: none;
+        position: relative;
+        top: -35px;
+        left: 200px;   
+    }
+    div input:hover{
+        border: 2px solid #000000;
+    }
+    .btnBusca{
+        font-size: 30px;
+        font-weight: 600;
+        padding: 9px;
+        border: none ;
+        transition: all linear 160ms;
+        cursor: pointer;
+        position: relative;
+        top: -11px;
+        left: 5%;
+        }
+        .btnBusca:hover {
+        transform: scale(1.05);
+        background-color: #15ff00;
+        }   
+}
