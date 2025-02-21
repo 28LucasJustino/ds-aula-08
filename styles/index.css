@@ -5,6 +5,18 @@
     padding: 0;
     font-family: "Roboto Condensed", sans-serif;
 }
+.head{
+    box-shadow: 0px 3px 10px #000000;
+    background-color: rgb(0, 162, 255);
+    overflow: auto;
+    width: auto;
+    height: 10vh;
+}
+.img{   
+    width: 13vw;
+    position: relative;
+    top: 0.5vw;
+}
 .loginBody{
     display: flex;
     justify-content: center;
@@ -12,7 +24,6 @@
 }
 .login{
     width: 50vw;
-    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,11 +83,11 @@
 }
 
 .inputsL #inputEmail:hover{
-    border: 1px solid red;
+    border: 1px solid rgb(0, 162, 255);
 }
 
 .inputsL #inputSenha:hover{
-    border: 1px solid red;
+    border: 1px solid rgb(0, 162, 255);
 }
 
 .inputsL #labelL{
@@ -110,12 +121,36 @@
     font-weight: 800;
     letter-spacing: 3px;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0);
+    background-color:rgb(0, 162, 255);
     cursor: pointer;
-    box-shadow: 0 10px 20px -12px red;
+    box-shadow: 0 10px 20px -12px rgb(0, 162, 255);
     border-radius: 15px;
 }
 .btnLogin:hover{
     transform: scale(1.05);
 
+}
+
+footer{
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    height: 170px;
+    display: grid;
+    justify-content: space-around;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+}
+
+footer nav div {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+body footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }

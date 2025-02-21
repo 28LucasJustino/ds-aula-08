@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.head{
+    box-shadow: 0px 3px 10px #000000;
+    background-color: rgb(0, 162, 255);
+    overflow: auto;
+    width: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.img{   
+    width: 13vw;
+}
+.cate {
+    display: flex;
+    align-items: center;
+}
+.cate .inB{
+    width: 50vw;
+    height: 4.5vh;
+    cursor: text;
+    position: relative;
+    border-radius: 8px;
+}
+.cate .inB::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.cate .inB:hover{
+    border: 1px solid  rgb(0, 0, 0);
+}
+#iconB{
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+}
+#iconB:hover{
+    transform: scale(1.15);
+    color: black;
+}
+.btnB {
+    border: none;
+    background-color: transparent;
+}
+.userM{
+    display: none;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+.user ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.item {
+    margin: 0 15px;
+}
+#iconC{
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 0.8vw;
+}
+#iconC:hover{
+    transform: scale(1.05);
+    color: white;
+}
+.link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.link:hover{
+    transform: scale(1.15);
+    color: white;
+}
+
+
+.tenis {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 40px; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out 0.5s;
+    box-shadow: 0 7px 10px 0 rgb(190, 190, 190);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.tenis a button{
+    color: rgb(250, 250, 250);
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+}
+
+#tenis {
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#tenis  a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#tenis  img {
+    width: 100%; 
+    border-radius: 8px; 
+    margin-bottom: 15px;
+    transition: all 0.2s ease-in-out 0.5s; 
+}
+
+#tenis  h3 {
+    font-size: 1.2em; 
+    margin-bottom: 10px; 
+}
+
+#tenis :hover{
+    transform: scale(1.05);
+}
+
+footer{
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    height: 170px;
+    display: grid;
+    justify-content: space-around;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+}
+
+footer nav div {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+body footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

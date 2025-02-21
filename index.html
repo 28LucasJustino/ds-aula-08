@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="stylesheet" href="./styles/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Biblioteca Senai</title>
+    <title>Login</title>
 </head>
+
 <body>
+    <header>
+        <nav class="head">
+            <img src="./assets/aasasadadsasd-removebg-preview.png" alt="logo" class="img">
+        </nav>
+    </header>
+    <br><br>
     <main>
         <div class="loginBody">
-            <div class="card-login">
-                <h1>Login</h1>
-                <div class="inputsL">
-                    <label id="labelL" for="email">Email</label>
-                    <input id="inputEmail" type="email" name="email" placeholder="Email" required><i
-                        class="fa-solid fa-user" id="icon"></i>
+            <div class="login">
+                <div class="card-login">
+                    <h1>Login</h1>
+                    <div class="inputsL">
+                        <label id="labelL" for="email">Email</label>
+                        <input id="inputEmail" type="email" name="email" placeholder="Email" required><i
+                            class="fa-solid fa-user" id="icon"></i>
+                    </div>
+                    <div class="inputsL">
+                        <label id="labelL" for="senha">Senha</label>
+                        <input id="inputSenha" type="password" name="senha" placeholder="Senha" required><i
+                            class="fa-solid fa-lock" id="icon"></i>
+                    </div>
+                    <button type="submit" class="btnLogin" onclick="login(); return false"
+                        class="result">Confirmar</button>
                 </div>
-                <div class="inputsL">
-                    <label id="labelL" for="senha">Senha</label>
-                    <input id="inputSenha" type="password" name="senha" placeholder="Senha" required><i
-                        class="fa-solid fa-lock" id="icon"></i>
-                </div>
-                <button type="submit" class="btnLogin" onclick="login(); return false" class="result">Confirmar</button>
             </div>
-    </div>
-    </main> 
+        </div>
+        
+        <br><br>
+    </main>
+    <footer>
+        <nav>
+            <div>
+                <pre><h3>Todos os direitos reservados ao Stride - 2024 &copy; 
+  SENAI - Londrina - R. Belém, 844 - Centro, Londrina
+            </h3></pre>
+            </div>
+        </nav>
+     </footer>
 </body>
 <script src="https://kit.fontawesome.com/c5d333bbd9.js" crossorigin="anonymous"></script>
 <script src="./js/login.js"></script>
+
 </html>
